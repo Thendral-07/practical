@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management Portal</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url("istockphoto-1344779917-612x612.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+            text-align: center;
+        }
+
+        
+        header {
+            background: blue; 
+            color: #fff;
+            padding: 15px 10px;
+            
+        }
+
+        header h1 {
+            font-size:25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0;
+        }
+
+        
+        .links {
+            margin: 50px auto;
+            display: flex;
+            justify-content: center;
+            gap: 45px;
+            
+        }
+
+        .link-button {
+            text-decoration: none;
+            color: #fff;
+            background: green;
+            padding: 12px 25px;
+            font-size: 15px;
+            font-weight: bolder;
+            border-radius: 10px;
+            
+            transition: all 0.1s ease;
+        }
+
+        .link-button:hover {
+            background: rgb(7, 231, 7);
+            transform: scale(1.03);
+            color: black;
+            
+        }
+
+        
+       
+
+        
+        footer {
+            margin-top: 50px;
+           
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hospital Management Portal</h1>
+    </header>
+
+    <div class="links">
+        <a href="patientreg.html" class="link-button">
+            <i class="fas fa-user-plus"></i> Patient Registration
+        </a>
+        <a href="schedule.html" class="link-button">
+            <i class="fas fa-calendar-check"></i> Schedule Appointment
+        </a>
+        <a href="pdf.html" class="link-button">
+            <i class="fas fa-file-pdf"></i> Download PDF
+        </a>
+        
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2024 Hospital Management System | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
